@@ -1,0 +1,213 @@
+{
+    "personal_info": {
+      "name": "Marco Fabre",
+      "birth_date": "8 Gennaio 1977",
+      "address": "Via Pergolesi 6, Firenze, 50144 Italia",
+      "law_68_99": "Iscritto categorie protette",
+      "email": [
+        "marcofabre77@gmail.com",
+        "twatac@gmail.com"
+      ],
+      "work_location": "Da remoto, ibrido e/o facilmente raggiungibile con mezzi pubblici",
+      "languages": [
+        {
+          "language": "Italiano",
+          "level": "madrelingua"
+        },
+        {
+          "language": "Inglese",
+          "level": "principalmente tecnico"
+        }
+      ]
+    },
+    "profile": "Professionista con esperienza in web development, grafica, produzione audio/video e insegnamento. Ho competenze nello sviluppo web e nella sonorizzazione di contenuti multimediali, con una buona conoscenza del design e dell'impaginazione. Mi piace lavorare in team su progetti variegati, affrontando le sfide con attenzione ai dettagli e un approccio pratico alla risoluzione dei problemi.",
+    "technical_skills": {
+      "software_languages": {
+        "languages": ["HTML", "CSS", "Less", "Sass", "JavaScript", "PHP", "JSON"],
+        "frameworks_libraries": ["jQuery", "VueJs", "React", "Angular"],
+        "databases": ["MySQL", "SQL"],
+        "editors_ides": ["Visual Studio Code", "Sublime Text", "Eclipse"],
+        "audio": ["Logic Pro", "Reason", "Reaper", "iZotope RX"],
+        "video": ["Final Cut Pro", "TouchDesigner"],
+        "graphics": ["Photoshop", "Illustrator", "InDesign", "XPRES", "Affinity Designer", "Affinity Publisher"],
+        "cms": ["Cockpit CMS", "WordPress"],
+        "operating_systems": ["macOS", "Windows"],
+        "virtualization": ["Parallels Desktop", "VMware Fusion Pro"],
+        "ai_tools": ["ChatGPT", "ideogram.ai", "app.leonardo.ai", "Gemini"]
+      },
+      "skills": [
+        "Sviluppo siti web",
+        "Mix e mastering per colonne sonore",
+        "Impaginazione grafica e ritocco fotografico",
+        "Post-produzione audio",
+        "Produzione contenuti multimediali e animazione 3D",
+        "Progettazione grafica per software CAD",
+        "Insegnamento di software grafici",
+        "Gestione di aule informatiche e supporto tecnico",
+        "Installazione e gestione CMS",
+        "Digitalizzazione di documenti e dati",
+        "Framework e librerie front-end",
+        "Gestione e migrazione database",
+        "Creazione temi personalizzati WordPress",
+        "Gestione progetti multimediali complessi",
+        "Testing e debugging di codice"
+      ]
+    },
+    "work_experience": {
+      "main_experiences": [
+        {
+          "company": "Grey Solution srl",
+          "period": "2014 - 2024",
+          "position": "Grafico e Web Developer",
+          "responsibilities": [
+            "Sviluppo e gestione di siti web",
+            "Impaginazione grafica e produzione contenuti multimediali",
+            "Progettazione e implementazione siti WordPress",
+            "Testing e debugging di codice"
+          ],
+          "contract": "indeterminato (legge 68/99)"
+        },
+        {
+          "company": "OneTech srl",
+          "period": "2012 - 2014",
+          "position": "Grafico e Web Developer",
+          "responsibilities": [
+            "Sviluppo e gestione siti web",
+            "Impaginazione grafica e produzione contenuti multimediali",
+            "Ottimizzazione SEO"
+          ],
+          "contract": "tempo determinato (legge 68/99)"
+        }
+      ],
+      "audio_video_productions": [
+        {
+          "title": "Spazzi Vuoti",
+          "year": 2021,
+          "director": "Nicola Zanobi",
+          "role": "Post-produzione colonna sonora e mix",
+          "link": "https://www.esenstudios.com/film/spazi-vuoti"
+        },
+        {
+          "title": "Inverti",
+          "year": 2020,
+          "director": "Pj Gambioli",
+          "role": "Post-produzione, mix e mastering colonna sonora",
+          "link": "https://youtu.be/M0wNTksceaU?si=vhDAxK2E4fC7oFEO"
+        },
+        {
+          "title": "Mamme Fuori Mercato",
+          "year": 2019,
+          "director": "Pj Gambioli",
+          "role": "Post-produzione audio, mix e mastering",
+          "link": "https://youtu.be/M0wNTksceaU?si=vhDAxK2E4fC7oFEO"
+        }
+      ],
+      "other_experiences": [
+        {
+          "title": "Mix e Mastering 'Baby Chat'",
+          "year": 2017,
+          "link": "https://youtube.com/playlist?list=PLT-LY8Qjh8Da0kfvMAqiSmExMd9XY8G1n&si=J0VJUPWYSDiljOgn"
+        },
+        {
+          "title": "CIS e Cartoon Club",
+          "year": 2015,
+          "description": "Produzione animazione 3D per spot",
+          "link": "https://youtu.be/3ZctuZF5fdE?si=FvBeBMtuIhFfEa8B"
+        },
+        {
+          "title": "EP 'Verso' dei Karenina",
+          "year": 2013,
+          "role": "Mastering",
+          "link": "https://spaziorock.it/archivio/recensione.php?&id=karenina_verso_2013"
+        },
+        {
+          "title": "Archivio Thayaht e Ram",
+          "description": "Portale WordPress personalizzato",
+          "link": "https://www.thayaht-ram.com/wp/"
+        },
+        {
+          "title": "Ci Vediamo A Casa",
+          "year": 2011,
+          "director": "Andrea Felli",
+          "role": "Mastering della colonna sonora per film",
+          "link": "https://www.cinemaitaliano.info/news/15902/ci-vediamo-a-casa-le-musiche-di-andrea-felli.html"
+        },
+        {
+          "title": "Polo Scientifico di Sesto Fiorentino",
+          "period": "2009-2012",
+          "position": "Addetto Aula Informatica"
+        },
+        {
+          "title": "Collaborazione con Serena Giannini",
+          "period": "2005-2023",
+          "description": "Mixaggio e mastering per colonne sonore, sigle e progetti musicali. Lavori per il Cartoon Club e il Cinema Indipendente Sardo.",
+          "links": {
+            "playlist": "https://youtube.com/playlist?list=PLgHw223qd7DU7vAK-FKFA0bR19MlP7Uqv&si=IcbXds_XVT37Xvhj",
+            "youtube_channel": "https://www.youtube.com/@SerenaGiannini"
+          }
+        },
+        {
+          "title": "COOPLAT Firenze",
+          "year": 2002,
+          "description": "Digitalizzazione di planimetrie e inserimento dati catastali per Milano e provincia."
+        },
+        {
+          "title": "Mozart 1 e 2",
+          "year": 1998,
+          "description": "sviluppo immagine \"splashscreen\" in 3d per noto CAD specifico per pelletteria",
+          "link": "https://www.allegromaestoso.com/index.htm"
+        },
+        {
+          "title": "CFP di San Colombano",
+          "year": 1998,
+          "position": "Insegnante Photoshop",
+          "description": "corso di formazione per fotografi e pellettieri"
+        }
+      ]
+    },
+    "education": [
+      {
+        "course": "Corso di Web Developer e Web Designer",
+        "institution": "IDI Informatica",
+        "year": 2010,
+        "duration": "236 ore"
+      },
+      {
+        "course": "Corso di Fonico Teatrale",
+        "institution": "Teatro Studio di Scandicci",
+        "year": 1998,
+        "duration": "300 ore"
+      },
+      {
+        "course": "Corso Professionale CAD/CAM per pellettieri",
+        "institution": "CFP San Colombano FI",
+        "year": 1997,
+        "duration": "300 ore"
+      },
+      {
+        "degree": "Diploma in Grafica Pubblicitaria",
+        "institution": "Istituto d'Arte di Porta Romana",
+        "year": 1996
+      }
+    ],
+    "personal_projects": [
+      {
+        "title": "RicordaMed",
+        "description": "Progettazione di una GUI per loggare e ricordare l'assunzone di farmaci, utile per utenti che necessitano di tenere traccia degli orari di somministrazione. Il progetto, sviluppato con Angular 9, è attualmente in fase di sviluppo."
+      },
+      {
+        "title": "Neno",
+        "description": "Sviluppo di un'interfaccia grafica (GUI) per gestire l'abilitazione e la disabilitazione di numerosi plugin audio installati su macOS. La prima versione, realizzata con Vue 2.6, è stata seguita da una seconda versione sviluppata con React 17. Questo progetto, attualmente in una fase iniziale, è stato concepito per gestire e alleggerire i plugin caricati da Logic su macchine non più recenti."
+      },
+      {
+        "title": "RUN",
+        "description": "Run è un vecchio brano mai concluso, che ho aggiornato e completato con nuove registrazioni di chitarre, basso, batteria e tastiere. Ho curato personalmente il mix e il mastering e, per accompagnare la musica, ho realizzato un video mashup utilizzando scene tratte dalla saga di Alien, un omaggio visivo e sonoro a questo capolavoro della fantascienza.",
+        "links": {
+          "audio": "https://youtu.be/qQRjoNsdTa8?si=hDjyt3N21Y6Jhiut",
+          "video": "https://youtu.be/oVA3c7hXZWw?si=BVGpYF5YMns5EyzF"
+        }
+      }
+    ],
+    "data_privacy": "Autorizzo il trattamento dei dati personali contenuti nel mio curriculum vitae in base all'art. 13 del D. Lgs. 196/2003 e all'art. 13 GDPR 679/16.",
+    "last_update": "14/11/2024"
+  }
