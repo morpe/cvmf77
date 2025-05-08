@@ -4,7 +4,9 @@
 **Indirizzo**: Via Pergolesi 6, Firenze, 50144 Italia  
 **Legge 68/99**: Iscritto categorie protette  
 **Email**: marcofabre77@gmail.com | twatac@gmail.com
+
 **Sede di lavoro**: Da remoto, ibrido e/o facilmente raggiungibile con mezzi pubblici  
+
 **Lingue**: Italiano (madrelingua), Inglese (principalmente tecnico)
 
 ---
