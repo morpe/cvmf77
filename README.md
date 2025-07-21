@@ -9,8 +9,6 @@
 
 **Sede di lavoro**: Da remoto, ibrido e/o facilmente raggiungibile con mezzi pubblici
 
-ì
-
 ---
 
 # Profilo
