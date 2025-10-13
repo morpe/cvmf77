@@ -44,6 +44,16 @@ di siti in WordPress.
 
 **Contratto: determinato (legge 68/99)**
 
+## TinextCyber [2025]
+
+_Grafico multimediale_
+
+Collaborazione su progetti grafici interni, impaginazione di presentazioni aziendali e realizzazione di brevi contenuti video.
+Attività svolta da remoto in coordinamento con
+il team grafico e IT. [Alfa Romeo](https://youtu.be/ZVYBhs0oWUw?si=S6HzWIl7PJU0XaXr) [Tinexta Cyber](https://youtu.be/ZVYBhs0oWUw?si=S6HzWIl7PJU0XaXr)
+
+**Contratto: determinato (legge 68/99)**
+
 ## Polo Scientifico di Sesto Fiorentino (Firenze) [2009-2012]
 
 _Addetto all’Aula Informatica_
@@ -91,6 +101,11 @@ Gambioli. - Vincitore al Calcutta International Cult Film Festival.
 ---
 
 # Formazione
+
+## Formazione generale e specifica per lavoratori d’ufficio [2025]
+
+Corso di sicurezza sul lavoro che integra la formazione generale e specifica per lavoratori d’ufficio, con focus su prevenzione dei rischi, sicurezza, stress lavoro-correlato e uso corretto delle attrezzature.
+Gruppo Erepi
 
 ## Corso di Web Developer e Web Designer [2010]
 
