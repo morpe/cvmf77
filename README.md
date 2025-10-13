@@ -50,7 +50,7 @@ _Grafico multimediale_
 
 Collaborazione su progetti grafici interni, impaginazione di presentazioni aziendali e realizzazione di brevi contenuti video.
 Attività svolta da remoto in coordinamento con
-il team grafico e IT. [Alfa Romeo](https://youtu.be/ZVYBhs0oWUw?si=S6HzWIl7PJU0XaXr) [Tinexta Cyber](https://youtu.be/ZVYBhs0oWUw?si=S6HzWIl7PJU0XaXr)
+il team grafico e IT. [Alfa Romeo](https://youtu.be/l2JJKHqZm-Y) [Tinexta Cyber](https://youtu.be/ZVYBhs0oWUw)
 
 **Contratto: determinato (legge 68/99)**
 
