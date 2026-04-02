@@ -214,27 +214,27 @@ Run è un vecchio brano mai concluso, che ho aggiornato e completato con nuove r
 
 ### Skills
 
--   Sviluppo e gestione di siti web
--   Mix, mastering e post-produzione audio
--   Impaginazione grafica e fotoritocco
--   Produzione contenuti multimediali e animazione 3D
--   Installazione e personalizzazione CMS (es. WordPress)
--   Gestione e migrazione database
--   Testing, debugging e supporto tecnico
--   Insegnamento e formazione su software grafici
+- Sviluppo e gestione di siti web
+- Mix, mastering e post-produzione audio
+- Impaginazione grafica e fotoritocco
+- Produzione contenuti multimediali e animazione 3D
+- Installazione e personalizzazione CMS (es. WordPress)
+- Gestione e migrazione database
+- Testing, debugging e supporto tecnico
+- Insegnamento e formazione su software grafici
 
 ### Software e linguaggi di uso frequente
 
--   macOS, Windows
--   HTML, CSS, Less, Sass, JavaScript, PHP,
--   jQuery, VueJs, React, Angular
--   Visual Studio Code, Sublime Text
--   MySQL, SQL, Json
--   Logic Pro, Reason, iZotope RX
--   Final Cut Pro, TouchDesigner
--   Photoshop, Illustrator, InDesign, XPRES, Affinity Designer, Affinity Publisher
--   Parallels Desktop, VMware Fusion Pro
--   ChatGPT, ideogram.ai, leonardo.ai, DeepSeek
+- macOS, Windows
+- HTML, CSS, Less, Sass, JavaScript, PHP,
+- jQuery, VueJs, React, Angular
+- Visual Studio Code, Sublime Text
+- MySQL, SQL, Json
+- Logic Pro, Reason, iZotope RX
+- Final Cut Pro, TouchDesigner
+- Photoshop, Illustrator, InDesign, XPRES, Affinity Designer, Affinity Publisher
+- Parallels Desktop, VMware Fusion Pro
+- ChatGPT, ideogram.ai, leonardo.ai, DeepSeek
 
 ---
 
