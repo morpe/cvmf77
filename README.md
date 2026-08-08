@@ -23,6 +23,18 @@ Approccio i progetti con pensiero critico e pragmatico, bilanciando esigenze tec
 
 # Esperienze Lavorative Principali
 
+## Extendi srl (2026)
+
+_Grafico, Ui/Ux, developer per strumenti basati su AI_
+
+Realizazione in Team di progetti complessi che utilizano AI per automatizare e risolvere problemi.
+
+## Tinexta srl (2025 - 2025)
+
+_Grafica e Video editor_
+
+Prodizione e revisioni per Video e presentazioni Powerpoint aziendali.
+
 ## Grey Solution srl (2014 - 2024)
 
 _Grafico e Web Developer_
@@ -221,20 +233,27 @@ Run è un vecchio brano mai concluso, che ho aggiornato e completato con nuove r
 - Installazione e personalizzazione CMS (es. WordPress)
 - Gestione e migrazione database
 - Testing, debugging e supporto tecnico
+- Accessibilita WCAG
+- Prompt Enginering
 - Insegnamento e formazione su software grafici
 
 ### Software e linguaggi di uso frequente
 
 - macOS, Windows
 - HTML, CSS, Less, Sass, JavaScript, PHP,
-- jQuery, VueJs, React, Angular
+- Rails, jQuery, VueJs,
 - Visual Studio Code, Sublime Text
 - MySQL, SQL, Json
 - Logic Pro, Reason, iZotope RX
 - Final Cut Pro, TouchDesigner
-- Photoshop, Illustrator, InDesign, XPRES, Affinity Designer, Affinity Publisher
-- Parallels Desktop, VMware Fusion Pro
-- ChatGPT, ideogram.ai, leonardo.ai, DeepSeek
+- Photoshop, Illustrator, InDesign, XPRES, Affinity Studio
+- Gemini, DeepSeek, Pi Agent
+
+---
+
+## nb:
+
+storico user su internet dal 96 come Kernelpanic e dopo come Morpe, grande senso di ironia e humor, appassionato di scienza, fantasicenza, filosofia, musica, tecno-thriller, films, serie tv e cartoni animati/anime, gamer occasionale tipo Elite Dangerouns (1054 ore), Cyberpunk 2077, Soma e molti altri
 
 ---
 
