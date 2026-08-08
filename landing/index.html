@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MORPE — Web · Design · Audio/Video</title>
+  <meta name="description" content="Morpe: web developer, graphic designer e producer audio/video. Online dal 1996. Firenze, Italia." />
+
+  <!-- Tailwind (vendored: funziona anche offline) -->
+  <script src="assets/js/tailwind.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            night: "#05070d",
+            deep:  "#0b0f1c",
+            panel: "#0d1224",
+            neon:  "#00f0ff",
+            mag:   "#ff2bd3",
+            cit:   "#f9ee0a",
+            lime:  "#b6ff3c",
+            viola: "#7a5cff",
+            ink:   "#e8ecff",
+            dim:   "#9aa3c7",
+          },
+          fontFamily: {
+            display: ["Orbitron", "sans-serif"],
+            body:    ["Space Grotesk", "sans-serif"],
+            mono:    ["'Share Tech Mono'", "monospace"],
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" href="assets/img/morpe-avatar.png" />
+</head>
+
+<body class="scanlines vignette bg-night text-ink font-body antialiased">
+
+  <!-- ================= NAVBAR ================= -->
+  <header id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+    <nav class="max-w-6xl mx-auto flex items-center justify-between px-5 py-3" aria-label="Principale">
+      <a href="#hero" class="flex items-center gap-3 group">
+        <img src="assets/img/morpe-avatar.png" alt="Avatar storico di morpe"
+             class="w-10 h-10 rounded-full ring-1 ring-neon/60 group-hover:ring-mag transition-all" />
+        <span class="font-display font-bold tracking-[0.25em] text-lg">
+          MOR<span class="text-neon">PE</span>
+        </span>
+      </a>
+      <div class="hidden md:flex items-center gap-8 mono text-sm">
+        <a class="nlink" href="#chi-sono">chi sono</a>
+        <a class="nlink" href="#dualita">day / night</a>
+        <a class="nlink" href="#lavori">lavori</a>
+        <a class="nlink" href="#progetti">progetti</a>
+        <a class="nlink" href="#contatti">contatti</a>
+      </div>
+      <button id="menu-btn" class="md:hidden text-2xl text-neon" aria-expanded="false" aria-label="Apri menu">☰</button>
+    </nav>
+    <!-- menu mobile -->
+    <div id="mobile-menu" class="hidden md:hidden bg-night/95 border-b border-neon/20 px-5 py-4 mono text-sm space-y-3">
+      <a class="block nlink" href="#chi-sono">chi sono</a>
+      <a class="block nlink" href="#dualita">day / night</a>
+      <a class="block nlink" href="#lavori">lavori</a>
+      <a class="block nlink" href="#progetti">progetti</a>
+      <a class="block nlink" href="#contatti">contatti</a>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden bg-grid"
+           style="background-image:linear-gradient(rgba(5,7,13,.82),rgba(5,7,13,.96)),url('assets/img/morpe-ghost.png');background-size:cover;background-position:center;">
+    <div class="relative z-10 text-center px-6 max-w-4xl mx-auto">
+      <p class="mono text-neon flicker mb-4 tracking-widest text-sm">// sistema: morpe // online dal 1996 //</p>
+      <h1 class="glitch font-display font-black text-6xl sm:text-8xl md:text-9xl tracking-widest" data-text="MORPE">MORPE</h1>
+      <p class="mt-4 text-lg sm:text-2xl text-ink/90">
+        <span class="mono text-lime cursor-blink" id="typewriter">web developer</span>
+      </p>
+      <p class="mt-6 max-w-xl mx-auto text-dim text-sm sm:text-base leading-relaxed">
+        Grafico di formazione, sviluppatore per vocazione, producer audio/video per passione.
+        Costruisco il ponte tra <span class="text-neon">design</span> e <span class="text-mag">codice</span> — e quando serve, ci aggiungo il suono.
+      </p>
+      <div class="mt-10 flex flex-wrap justify-center gap-4">
+        <a href="#lavori" class="mono px-7 py-3 border border-neon text-neon hover:bg-neon hover:text-night transition-all glow-cyan">[ esplora ]</a>
+        <a href="#contatti" class="mono px-7 py-3 border border-mag text-mag hover:bg-mag hover:text-night transition-all glow-magenta">[ contatta ]</a>
+      </div>
+    </div>
+    <a href="#chi-sono" class="absolute bottom-6 left-1/2 -translate-x-1/2 text-dim mono text-xs animate-bounce" aria-hidden="true">▼ scroll ▼</a>
+  </section>
+
+  <!-- ================= TICKER ================= -->
+  <div class="ticker py-2 relative z-10" aria-hidden="true">
+    <div class="ticker-track">
+      <span>// WEB DEVELOPMENT</span><span>// GRAPHIC DESIGN</span><span>// MIX &amp; MASTERING</span>
+      <span>// ANIMAZIONE 3D</span><span>// SOUND DESIGN</span><span>// UI/UX</span><span>// PROBLEM SOLVING</span>
+    </div>
+  </div>
+
+  <!-- ================= CHI SONO ================= -->
+  <section id="chi-sono" class="relative py-24 px-5 bg-grid">
+    <div class="max-w-5xl mx-auto">
+      <p class="mono text-neon text-sm">// 01 :: chi sono</p>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl mt-2 tracking-wide">PROFILO <span class="text-neon">OPERATIVO</span></h2>
+
+      <div class="mt-12 grid md:grid-cols-[260px_1fr] gap-10 items-start">
+        <div class="reveal">
+          <div class="cyber-card relative p-6 text-center">
+            <span class="corner-note">av_1.0</span>
+            <img src="assets/img/morpe-avatar.png" alt="Avatar storico di morpe dai tempi del primo film di South Park"
+                 class="w-36 h-36 mx-auto rounded-full object-cover ring-2 ring-mag/70" />
+            <p class="mono text-xs text-dim mt-4">// avatar storico</p>
+            <p class="mono text-xs text-dim">l'epoca del primo film<br/>di South Park (1999)</p>
+            <p class="mono text-xs text-mag mt-2">> il nucleo</p>
+          </div>
+        </div>
+
+        <div class="space-y-5 text-dim leading-relaxed">
+          <p class="reveal">
+            <span class="text-ink font-medium">Marco Fabre</span> — nato l'8 gennaio 1977 a Firenze. Grafico di formazione,
+            mi sono avvicinato con passione allo sviluppo web da autodidatta con l'arrivo di Internet, durante la crescita dei blog e dei CMS.
+          </p>
+          <p class="reveal">
+            Oggi: <span class="text-neon">web development</span>, <span class="text-mag">grafica</span> e
+            <span class="text-cit">produzione audio/video</span>. In passato ho anche insegnato fotoritocco a pellettieri e fotografi.
+          </p>
+          <p class="reveal">
+            Approccio i progetti con pensiero critico e pragmatico, bilanciando esigenze tecniche e grafiche:
+            spesso il mio ruolo è fare da ponte tra sviluppo e design. O tra il cliente e la macchina.
+          </p>
+          <div class="reveal pt-2 grid sm:grid-cols-3 gap-4 mono text-xs">
+            <div class="border border-neon/30 p-3"><span class="text-neon">online</span><br/>dal 1996<br/><span class="text-dim">come Kernelpanic</span></div>
+            <div class="border border-mag/30 p-3"><span class="text-mag">sede</span><br/>Firenze · IT<br/><span class="text-dim">remoto / ibrido</span></div>
+            <div class="border border-cit/30 p-3"><span class="text-cit">lingue</span><br/>italiano · nativo<br/><span class="text-dim">inglese · tecnico</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= DAY / NIGHT ================= -->
+  <section id="dualita" class="relative py-24 px-5">
+    <div class="max-w-5xl mx-auto">
+      <p class="mono text-neon text-sm">// 02 :: dualità</p>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl mt-2 tracking-wide">DUE <span class="text-cit">SOLE</span> / UNA <span class="text-neon">LUNA</span></h2>
+      <p class="text-dim mt-3 max-w-2xl">La stessa persona, due stati d'animo: giallo Simpson di giorno, Ghost in the Shell di notte.</p>
+
+      <div class="mt-12 grid md:grid-cols-2 gap-8">
+        <!-- DAY -->
+        <article class="cyber-card reveal overflow-hidden">
+          <div class="relative">
+            <img src="assets/img/morpe-simp.png" alt="Morpe in stile Simpson, di giorno" class="w-full h-72 object-cover" />
+            <span class="absolute top-3 left-3 mono text-xs px-2 py-1 bg-cit text-night font-bold">DAY MODE</span>
+          </div>
+          <div class="p-6">
+            <h3 class="font-display font-bold text-xl text-cit tracking-wide">DI GIORNO</h3>
+            <p class="text-dim mt-2 text-sm leading-relaxed">
+              Il lato solare: riunioni, pixel perfetti, pixel no… e la voglia di risolvere il problema di tutti.
+              Un po' Simpson: giallo, ironico, di Springfield ma con la testa tra i css.
+            </p>
+          </div>
+        </article>
+
+        <!-- NIGHT -->
+        <article class="cyber-card reveal overflow-hidden">
+          <div class="relative">
+            <img src="assets/img/morpe-ghost.png" alt="Morpe in stile anime Ghost in the Shell, di notte" class="w-full h-72 object-cover" />
+            <span class="absolute top-3 left-3 mono text-xs px-2 py-1 bg-neon text-night font-bold">NIGHT MODE</span>
+          </div>
+          <div class="p-6">
+            <h3 class="font-display font-bold text-xl text-neon tracking-wide">DI NOTTE</h3>
+            <p class="text-dim mt-2 text-sm leading-relaxed">
+              Il lato ghost: neon, pioggia e riflessi. Quando tutto tace, la testa viaggia tra reti neurali,
+              sci-fi e il rumore delle città che non dormono mai.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TECH / 2008 ================= -->
+  <section id="tech" class="relative py-24 px-5">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <div class="reveal">
+        <div class="cyber-card overflow-hidden">
+          <img src="assets/img/morpe-ripara-macbook-2008.jpg" alt="Morpe che aggiorna l'HDD di un MacBook Pro, 2008 circa"
+               class="w-full object-cover" />
+        </div>
+      </div>
+      <div class="reveal">
+        <p class="mono text-neon text-sm">// 03 :: le radici</p>
+        <h2 class="font-display font-bold text-3xl sm:text-4xl mt-2 tracking-wide">PRIMA DEI SITI, <span class="text-neon">LE MACCHINE</span></h2>
+        <p class="text-dim mt-5 leading-relaxed">
+          Circa 2008: upgrade dell'HDD su un MacBook Pro. Nessuna foto patinata, uno scatto casuale
+          — l'originale l'ho perso, ma questo racconta tutto.
+        </p>
+        <p class="text-dim mt-3 leading-relaxed">
+          Prima di sviluppare siti, riparavo hardware. Prima di masterizzare brani, smontavo impianti audio.
+          La logica è la stessa: <span class="text-cit">capire come funziona, e farlo funzionare meglio</span>.
+        </p>
+        <div class="mt-6 mono text-xs space-y-2 text-dim">
+          <p><span class="text-lime">$</span> sudo chmod +x morpe && sudo morpe --fix-it</p>
+          <p><span class="text-neon">→</span> output: problema risolto, con soddisfazione.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LAVORI ================= -->
+  <section id="lavori" class="relative py-24 px-5 bg-grid">
+    <div class="max-w-5xl mx-auto">
+      <p class="mono text-neon text-sm">// 04 :: esperienze</p>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl mt-2 tracking-wide">STORICO <span class="text-mag">OPERATIVO</span></h2>
+
+      <div class="mt-12 space-y-4">
+        <article class="cyber-card reveal p-6 flex flex-wrap gap-x-8 gap-y-2 justify-between items-baseline">
+          <div>
+            <h3 class="font-display font-bold text-lg text-neon">EXTENDI srl</h3>
+            <p class="mono text-xs text-dim mt-1">grafico · UI/UX · developer per strumenti basati su AI</p>
+          </div>
+          <p class="mono text-sm text-cit">2026 — oggi</p>
+        </article>
+
+        <article class="cyber-card reveal p-6 flex flex-wrap gap-x-8 gap-y-2 justify-between items-baseline">
+          <div>
+            <h3 class="font-display font-bold text-lg text-neon">TINEXTA srl</h3>
+            <p class="mono text-xs text-dim mt-1">grafica &amp; video editor — video e presentazioni aziendali</p>
+          </div>
+          <p class="mono text-sm text-cit">2025</p>
+        </article>
+
+        <article class="cyber-card reveal p-6 flex flex-wrap gap-x-8 gap-y-2 justify-between items-baseline">
+          <div>
+            <h3 class="font-display font-bold text-lg text-neon">GREY SOLUTION srl</h3>
+            <p class="mono text-xs text-dim mt-1">grafico &amp; web developer — WordPress, Angular, React, testing</p>
+          </div>
+          <div class="text-right">
+            <p class="mono text-sm text-cit">2014 — 2024</p>
+            <p class="mono text-[10px] text-dim">contratto indeterminato · legge 68/99</p>
+          </div>
+        </article>
+
+        <article class="cyber-card reveal p-6 flex flex-wrap gap-x-8 gap-y-2 justify-between items-baseline">
+          <div>
+            <h3 class="font-display font-bold text-lg text-neon">ONETECH srl</h3>
+            <p class="mono text-xs text-dim mt-1">grafico &amp; web developer — siti WordPress</p>
+          </div>
+          <p class="mono text-sm text-cit">2012 — 2014</p>
+        </article>
+
+        <article class="cyber-card reveal p-6 flex flex-wrap gap-x-8 gap-y-2 justify-between items-baseline">
+          <div>
+            <h3 class="font-display font-bold text-lg text-neon">TINEXTACYBER</h3>
+            <p class="mono text-xs text-dim mt-1">grafico multimediale — presentazioni e contenuti video da remoto</p>
+          </div>
+          <p class="mono text-sm text-cit">2025</p>
+        </article>
+
+        <article class="cyber-card reveal p-6 flex flex-wrap gap-x-8 gap-y-2 justify-between items-baseline">
+          <div>
+            <h3 class="font-display font-bold text-lg text-neon">POLO SCIENTIFICO · SESTO FIORENTINO</h3>
+            <p class="mono text-xs text-dim mt-1">addetto all'aula informatica — supporto a studenti e servizi</p>
+          </div>
+          <p class="mono text-sm text-cit">2009 — 2012</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROGETTI & AUDIO/VIDEO ================= -->
+  <section id="progetti" class="relative py-24 px-5">
+    <div class="max-w-5xl mx-auto">
+      <p class="mono text-neon text-sm">// 05 :: progetti</p>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl mt-2 tracking-wide">LABORATORIO <span class="text-lime">APERTO</span></h2>
+
+      <div class="mt-12 grid md:grid-cols-3 gap-6">
+        <a href="https://github.com/morpe/Neno" target="_blank" rel="noopener" class="cyber-card reveal p-6 block">
+          <span class="corner-note">github</span>
+          <h3 class="font-display font-bold text-lg text-neon">NENO</h3>
+          <p class="text-dim text-sm mt-2 leading-relaxed">GUI per gestire e alleggerire i plugin audio su macOS per Logic. Vue 2.6 → React 17.</p>
+          <p class="mono text-xs text-mag mt-4">→ github.com/morpe/Neno</p>
+        </a>
+
+        <div class="cyber-card reveal p-6">
+          <span class="corner-note">in progress</span>
+          <h3 class="font-display font-bold text-lg text-neon">MEDIMEMO</h3>
+          <p class="text-dim text-sm mt-2 leading-relaxed">GUI per loggare l'assunzione di farmaci e monitorarne l'efficacia nel tempo. Angular 9.</p>
+        </div>
+
+        <div class="cyber-card reveal p-6">
+          <span class="corner-note">music</span>
+          <h3 class="font-display font-bold text-lg text-neon">RUN</h3>
+          <p class="text-dim text-sm mt-2 leading-relaxed">Un vecchio brano ritrovato, completato con nuove registrazioni. Mix, mastering e video mashup Alien.</p>
+          <div class="mt-4 flex gap-3 mono text-xs">
+            <a class="nlink text-cit" href="https://youtu.be/oVA3c7hXZWw" target="_blank" rel="noopener">[video]</a>
+            <a class="nlink text-cit" href="https://www.youtube.com/watch?v=qQRjoNsdTa8" target="_blank" rel="noopener">[musica]</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Produzioni audio/video -->
+      <div class="mt-20">
+        <h3 class="font-display font-bold text-2xl tracking-wide">PRODUZIONI <span class="text-cit">AUDIO / VIDEO</span></h3>
+        <p class="text-dim mt-2 text-sm">Post-produzione audio, mix e mastering per cortometraggi e colonne sonore.</p>
+
+        <div class="mt-8 grid md:grid-cols-3 gap-6">
+          <article class="cyber-card reveal p-6">
+            <div class="flex items-center gap-4">
+              <img src="assets/qr/spazi-vuoti.svg" alt="QR code: home page Spazi Vuoti" class="w-20 h-20 bg-white rounded-sm" />
+              <div>
+                <h4 class="font-display font-bold text-neon">SPAZI VUOTI</h4>
+                <p class="mono text-xs text-dim">2021 · Nicola Zanobi</p>
+              </div>
+            </div>
+            <p class="text-dim text-sm mt-3 leading-relaxed">Post-produzione audio e musica. Un dramma psicologico sulla prosopagnosia.</p>
+            <a class="nlink mono text-xs text-cit mt-3 inline-block" href="https://www.esenstudios.com/film/spazi-vuoti/" target="_blank" rel="noopener">[home page]</a>
+          </article>
+
+          <article class="cyber-card reveal p-6">
+            <div class="flex items-center gap-4">
+              <img src="assets/qr/inverti.svg" alt="QR code: trailer Inverti" class="w-20 h-20 bg-white rounded-sm" />
+              <div>
+                <h4 class="font-display font-bold text-mag">INVERTI</h4>
+                <p class="mono text-xs text-dim">2020 · Pj Gambioli</p>
+              </div>
+            </div>
+            <p class="text-dim text-sm mt-3 leading-relaxed">Post-produzione audio, mix e mastering. Il sequel di Mamme Fuori Mercato.</p>
+            <a class="nlink mono text-xs text-cit mt-3 inline-block" href="https://youtu.be/4RwESEPQXio" target="_blank" rel="noopener">[trailer]</a>
+          </article>
+
+          <article class="cyber-card reveal p-6">
+            <div class="flex items-center gap-4">
+              <img src="assets/qr/mamma-fuori-mercato.svg" alt="QR code: trailer Mamme Fuori Mercato" class="w-20 h-20 bg-white rounded-sm" />
+              <div>
+                <h4 class="font-display font-bold text-cit">MAMME FUORI MERCATO</h4>
+                <p class="mono text-xs text-dim">2019 · Pj Gambioli</p>
+              </div>
+            </div>
+            <p class="text-dim text-sm mt-3 leading-relaxed">Post-produzione audio, mix e mastering. Vincitore al Calcutta International Cult Film Festival.</p>
+            <a class="nlink mono text-xs text-cit mt-3 inline-block" href="https://youtu.be/M0wNTksceaU" target="_blank" rel="noopener">[trailer]</a>
+          </article>
+        </div>
+
+        <div class="mt-6 cyber-card reveal p-5 flex flex-wrap items-center gap-3 justify-between">
+          <p class="text-dim text-sm">Colonne sonore e sigle: collaborazione con la compositrice <span class="text-ink">Serena Giannini</span> (2005-2023).</p>
+          <div class="flex gap-3 mono text-xs">
+            <a class="nlink text-neon" href="https://www.youtube.com/playlist?list=PLgHw223qd7DU7vAK-FKFA0bR19MlP7Uqv" target="_blank" rel="noopener">[playlist]</a>
+            <a class="nlink text-neon" href="https://www.youtube.com/@SerenaGiannini" target="_blank" rel="noopener">[youtube]</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills" class="relative py-24 px-5 bg-grid">
+    <div class="max-w-5xl mx-auto">
+      <p class="mono text-neon text-sm">// 06 :: abilità</p>
+      <h2 class="font-display font-bold text-3xl sm:text-4xl mt-2 tracking-wide">SKILLS &amp; <span class="text-mag">TOOLS</span></h2>
+
+      <div class="mt-10 flex flex-wrap gap-3">
+        <!-- generato via JS per compattezza -->
+        <div id="chip-list" class="contents"></div>
+      </div>
+
+      <div class="mt-10 grid sm:grid-cols-2 gap-4">
+        <div class="cyber-card reveal p-5">
+          <h3 class="font-display font-bold text-neon text-sm tracking-widest">CREATIVO</h3>
+          <p class="mono text-xs text-dim mt-3 leading-loose">
+            Photoshop · Illustrator · InDesign · XPRES · Affinity Studio<br/>
+            Logic Pro · Reason · iZotope RX · Final Cut Pro · TouchDesigner
+          </p>
+        </div>
+        <div class="cyber-card reveal p-5">
+          <h3 class="font-display font-bold text-mag text-sm tracking-widest">TECNICO</h3>
+          <p class="mono text-xs text-dim mt-3 leading-loose">
+            HTML · CSS · Less · Sass · JavaScript · PHP · Rails<br/>
+            jQuery · VueJS · Angular · React · MySQL · SQL · JSON
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTATTI ================= -->
+  <section id="contatti" class="relative py-24 px-5">
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="mono text-neon text-sm">// 07 :: contatti</p>
+      <h2 class="font-display font-bold text-3xl sm:text-5xl mt-2 tracking-wide">RESTIAMO IN <span class="text-neon">CONTATTO</span></h2>
+      <p class="text-dim mt-4">Disponibile per lavori da remoto, ibridi o in sede (facilmente raggiungibile con i mezzi pubblici).</p>
+
+      <div class="mt-10 space-y-4 mono text-sm">
+        <a class="block nlink text-neon" href="mailto:marcofabre77@gmail.com">✉ marcofabre77@gmail.com</a>
+        <a class="block nlink text-mag" href="mailto:twatac@gmail.com">✉ twatac@gmail.com</a>
+        <a class="block nlink text-cit" href="https://github.com/morpe" target="_blank" rel="noopener">⎇ github.com/morpe</a>
+      </div>
+
+      <p class="text-dim text-xs mt-12 leading-relaxed">
+        Autorizzo il trattamento dei dati personali contenuti nel presente curriculum vitae
+        in base all'art. 13 del D. Lgs. 196/2003 e all'art. 13 GDPR 679/16.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="border-t border-neon/15 py-8 px-5">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 mono text-xs text-dim">
+      <p>© <span id="year">2026</span> morpe — Firenze, Italia. <span class="text-neon">online dal 1996</span></p>
+      <p>kernelpanic → morpe → <span class="text-mag">il futuro</span></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Chips abilità (generate qui per tenere l'HTML pulito)
+    const chips = [
+      "Sviluppo web", "Mix & mastering", "Post-produzione audio", "Impaginazione grafica",
+      "Fotoritocco", "Contenuti multimediali", "Animazione 3D", "CMS (WordPress)",
+      "Migrazione database", "Testing & debugging", "Accessibilità WCAG", "Prompt engineering",
+      "Insegnamento software grafici", "UI/UX", "Sound design", "Video editing",
+    ];
+    document.getElementById("chip-list").innerHTML = chips
+      .map((c) => `<span class="chip px-4 py-2 text-xs">${c}</span>`)
+      .join("");
+  </script>
+</body>
+</html>
